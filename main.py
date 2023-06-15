@@ -24,8 +24,9 @@ from pygame import mixer
 import sys
 import time
 import random
-print("ENTER 'code()' to call me")
-def code():
+# print("ENTER 'code()' to call me")
+
+while True:
     pass1=str(input("Enter mysql password"))
     mydb = mysql.connector.connect(
       host="localhost",
@@ -113,4 +114,3 @@ def code():
 
         for x in myresult:
             print(x)
-            
